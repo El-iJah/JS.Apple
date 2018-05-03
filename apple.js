@@ -5,5 +5,5 @@ let hmapple = prompt('Сколько стоит одно яблоко?');
 let allapple = apple * hmapple;
 let hmbread = prompt ('Сколько стоит один батон?');
 let allbread = bread * hmbread;
-let output = money - (allapple + allbread);
-document.body.innerText = money >= output;
+let total = allapple + allbread;
+document.body.innerText = money >= total;
